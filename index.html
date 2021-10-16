@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>Expenses</title>
+      <title>Novia</title>
       <link rel="icon" href="images/wallet-icon/029-list.png">
       <!-- Required meta tags -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,10 +23,13 @@
    <body>
     <style>
         body {
-	background: linear-gradient(60deg, #D8097E, #D8097E,#D8097E, #D8097E, #8C579C, #8C579C, #8C579C, #24468E, #24468E, #24468E, #24468E);
+	background: linear-gradient(60deg,  #D8097E,#D8097E, #D8097E,  #8C579C, #8C579C,  #24468E, #24468E, #24468E);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+	animation: gradient 30s ease infinite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+	min-height: 100vh;
 }
 
 @keyframes gradient {
@@ -41,7 +44,46 @@
 	}
 }
     </style>
+            <p class="mx-auto mt-5 col-8" id="messenger"></p>
+            <main class="col-8 mx-auto">
+                <form>
+                    <p class="">THis is a </p>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad" checked> Option 1</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad"> Option 2</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad" checked> Option 1</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad"> Option 2</label>
+                    </div>
+                    
+                    <p class="mt-5">THis is a </p>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad" checked> Option 1</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad"> Option 2</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad" checked> Option 1</label>
+                    </div>
+                    <div class="radio">
+                      <label><input class="ml-3" type="radio" name="rad"> Option 2</label>
+                    </div>
 
+                    <p class="mt-5">THis is a </p>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected disabled>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </form>
+            </main>
 
             <!-- jQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
