@@ -8,7 +8,7 @@ body{
     min-height: 80px;
 }
 
-select{
+select, button{
     padding: 2px;
     background-color: transparent;
     text-align: center;
@@ -22,4 +22,14 @@ select{
 
 option{
     color: #222;
+}
+
+button{
+    padding: 3px;
+    border: solid 2px #e7e7e7;
+    font-size: x-large;
+}
+
+button:hover{
+    filter:invert(100%)
 }
